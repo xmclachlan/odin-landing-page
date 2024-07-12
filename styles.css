@@ -76,6 +76,69 @@
     color: #1F2937;
 }
 
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.info-content {
+    width: 150px;
+    text-align: center;
+}
+
+.box {
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #3882F6;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-content {
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+}
+
+.cta-outer {
+    margin: 150px 75px;
+}
+
+.cta {
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 80%;
+    height: 175px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px
+}
+
+.button2 {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 20px 5px 20px;
+}
+
+
 h1 {
     font-family: arial;
     font-size: 24px;
@@ -96,3 +159,24 @@ h3 {
     color: #F9FAF8;
 }
 
+h4 {
+    font-family: arial;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+h5 {
+    font-family: arial;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight:100;
+}
+
+h6 {
+    font-family: arial;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
+    font-size: 24px;
+}
